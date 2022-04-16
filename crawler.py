@@ -26,6 +26,7 @@ def name_change(path, name):
             os.rename(src, dst)
             count += 1
 
-name_change("C:/Users/emree/Documents/Robotica/2/HumanMachineInterface/vision/vision/n/cats.images/", "cats")
-name_change("C:/Users/emree/Documents/Robotica/2/HumanMachineInterface/vision/vision/n/roads/", "roads")
-name_change("C:/Users/emree/Documents/Robotica/2/HumanMachineInterface/vision/vision/n/trees/", "trees")
+# ADD PATH
+name_change("PATH /n/cats.images/", "cats")
+name_change("PATH /n/roads/", "roads")
+name_change("PATH /n/trees/", "trees")
